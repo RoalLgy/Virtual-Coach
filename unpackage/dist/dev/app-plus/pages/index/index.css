@@ -1,0 +1,54 @@
+
+.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+.logo {
+		height: 200 rpx;
+		width: 200 rpx;
+		margin-top: 200 rpx;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50 rpx;
+}
+.text-area {
+		display: flex;
+		justify-content: center;
+		margin-top: 10 vh;
+}
+.text-area.recordingStyle {
+		width: 100 px;
+		height: 100 px;
+		border-radius: 50 % ;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 16 px;
+		color: # fff;
+		background: #409eff;
+}
+.Sound_btn{
+		display:flex;
+		align-items:center;
+		margin:10px 0 0 0;
+}
+.Sound_btn>uni-button{
+		background:none;
+}
+.title {
+		font-size: 1.125rem;
+		color: # 8 f8f94;
+}
+.reslut_box {
+		width: 90 % ;
+		background: #409eff10;
+		margin:1em 5%;
+		padding:0.5em 0;
+		border-radius:10px;
+}
+.reslut_box p{
+		margin:0 20px;
+}
